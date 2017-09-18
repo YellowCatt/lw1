@@ -7,6 +7,7 @@ var array = [],
 
 for (i = 0; i < N; i++) {
   array[i] = Math.floor(Math.random() * (15 - 1 + 1)) + 1;
+  fullmass = fullmass + array[i] + " ";
 }
 
 do {
@@ -21,10 +22,6 @@ for (i = 0; i < N; i++) {
     IsFound = true;
     break;
   }
-}
-
-for (i = 0; i < N; i++) {
-  fullmass = fullmass + array[i] + " ";
 }
 
 alert(fullmass);
