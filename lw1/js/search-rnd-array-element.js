@@ -12,22 +12,24 @@ for (i = 0; i < N; i++) {
 
 do {
   searchNumber = prompt("search namber: ");
-  if ((searchNumber == "") || (isNaN(searchNumber)) || searchNumber <= 0) {
+  if ((searchNumber == "") || (isNaN(searchNumber)) || searchNumber < 0) {
     alert("Ошибка ввода");
   }
-} while ((searchNumber == "") || (isNaN(searchNumber)) || searchNumber <= 0);
+} while ((searchNumber == "") || (isNaN(searchNumber)) || searchNumber < 0);
 
-for (i = 0; i < N; i++) {
-  if (array[i] == searchNumber) {
-    IsFound = true;
-    break;
+if (searchNumber > 0) {
+  for (i = 0; i < N; i++) {
+    if (array[i] == searchNumber) {
+      IsFound = true;
+      break;
+    }
   }
-}
 
-alert(fullmass);
+  alert(fullmass);
 
-if (!IsFound) {
-  alert("Element " + searchNumber + " not found");
-} else {
-  alert("Element " + searchNumber + " is found!");
+  if (!IsFound) {
+    alert("Element " + searchNumber + " not found");
+  } else {
+    alert("Element " + searchNumber + " is found!");
+  }
 }
