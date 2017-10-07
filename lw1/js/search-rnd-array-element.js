@@ -6,11 +6,15 @@ for (i = 0; i < N; i++) {
   fullmass = fullmass + array[i] + " ";
 }
 
+do{
   searchNumber = prompt("search namber: ");
-  if ((searchNumber == "") || (isNaN(searchNumber)) || searchNumber == null) {
+  if ((searchNumber == "") || (isNaN(searchNumber))) {
     alert("Error");
+  }
+  if (searchNumber == null) {
     windows.stop;
   }
+} while ((searchNumber == "") || (isNaN(searchNumber)) || (searchNumber == " "));
 
 if (searchNumber >= 0) {
   for (i = 0; i < N; i++) {
