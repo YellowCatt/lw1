@@ -8,13 +8,18 @@ for (i = 0; i < N; i++) {
 
 do{
   searchNumber = prompt("search namber: ");
+  for (i = 0; i < str.lenght(searchNumber ); i++) {
+    if (searchNumber[i] == " ") {
+      fixedNumber+=searchNumber[i]; 
+    }
+  }
   if ((searchNumber == "") || (isNaN(searchNumber))) {
     alert("Error");
   }
   if (searchNumber == null) {
     windows.stop;
   }
-} while ((searchNumber == "") || (isNaN(searchNumber)) || (searchNumber == " "));
+} while ((searchNumber == "") || (isNaN(searchNumber)));
 
 if (searchNumber >= 0) {
   for (i = 0; i < N; i++) {
