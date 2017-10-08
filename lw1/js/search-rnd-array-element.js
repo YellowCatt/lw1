@@ -1,27 +1,18 @@
-const N = 10;
-var array = [], searchNumber, IsFound = false, i, fullmass = " ";
+var array = [], searchNumber, IsFound = false, i, fullmass = " ", N = 10;
 
 for (i = 0; i < N; i++) {
   array[i] = Math.floor(Math.random() * (15 - 0 + 0)) + 0;
   fullmass = fullmass + array[i] + " ";
 }
 
-do{
+do {
   searchNumber = prompt("search namber: ");
-  for (i = 0; i < str.lenght(searchNumber ); i++) {
-    if (searchNumber[i] == " ") {
-      fixedNumber+=searchNumber[i]; 
-    }
-  }
   if ((searchNumber == "") || (isNaN(searchNumber))) {
     alert("Error");
   }
-  if (searchNumber == null) {
-    windows.stop;
-  }
 } while ((searchNumber == "") || (isNaN(searchNumber)));
 
-if (searchNumber >= 0) {
+if ((!(searchNumber === null)) || (searchNumber >= 0)) {
   for (i = 0; i < N; i++) {
     if (array[i] == searchNumber) {
       IsFound = true;
