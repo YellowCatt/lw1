@@ -1,4 +1,10 @@
-var array = [], searchNumber = " ", isFound = false, i, fullmass = " ", N = 10, i1, Error = false, pattern = /^[\s]+$/;
+var array = [],
+  searchNumber = " ",
+  isFound = false,
+  i, fullmass = " ",
+  N = 10,
+  i1, Error = false,
+  pattern = /^[\s]+$/;
 
 for (i = 0; i < N; i++) {
   array[i] = Math.floor(Math.random() * (15 - 0 + 0)) + 0;
@@ -10,15 +16,15 @@ do {
   Error = false;
   if (searchNumber !== null) {
     if ((searchNumber == "") || (isNaN(searchNumber)) || (pattern.test(searchNumber))) {
-      alert("Error");  
-	  Error = true;
+      alert("Error");
+      Error = true;
     }
   }
 } while (Error == true);
 
 if (searchNumber !== null) {
-  for (i = 0; i < N; i++) {  
-	if (array[i] == searchNumber) {
+  for (i = 0; i < N; i++) {
+    if (array[i] == searchNumber) {
       isFound = true;
     }
   }
