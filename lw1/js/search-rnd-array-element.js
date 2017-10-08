@@ -10,16 +10,14 @@ do {
   if ((searchNumber == "") || (isNaN(searchNumber))) {
     alert("Error");
   }
-} while ((searchNumber == "") || (isNaN(searchNumber)));
+} while ((searchNumber == "") || (isNaN(searchNumber)) || (searchNumber <0));
 
-if ((!(searchNumber === null)) || (searchNumber >= 0)) {
-  for (i = 0; i < N; i++) {
-    if (array[i] == searchNumber) {
+if (searchNumber !== null) {
+  for (i = 0; i < N; i++) {  
+	if (array[i] == searchNumber) {
       IsFound = true;
-      break;
     }
   }
-
   alert(fullmass);
 
   if (!IsFound) {
