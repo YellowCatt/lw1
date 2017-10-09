@@ -7,13 +7,13 @@
 }
 .header-page__language {
 	float: left;
-	width: 29%;
+	width: 28%;
 	padding: 22px;
 }
 .header-page__logo {
 	padding: 16px;
 	float: left;
-	width: 29%;
+	width: 28%;
 }
 .header-page__sign-in {
 	float: right;
@@ -24,11 +24,19 @@
 	color: #7000e3;
 	height: 32px;
 	width: 167px;
-	border-radius: 10px;
+	border-radius: 8px;
 	border: 0;
 }
+.sign-page{
+	position: relative;
+    display: inline-block;
+    margin:0 25% 0 25%;
+    width:50%;
+
+    text-align: left;
+}
 p{
-	color: white;
+	font-family:helvetica;
 }
 SELECT {
 	background: #7000e3;
