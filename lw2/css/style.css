@@ -1,1 +1,37 @@
-﻿
+﻿.header-page {
+	background: #7000e3;
+	height: 65px;
+	padding: 0 20px;
+	margin: 0;
+	position: relative;
+}
+.header-page__language {
+	float: left;
+	width: 29%;
+	padding: 22px;
+}
+.header-page__logo {
+	padding: 16px;
+	float: left;
+	width: 29%;
+}
+.header-page__sign-in {
+	float: right;
+	padding: 2px;
+}
+.sign-button{
+	background: white;
+	color: #7000e3;
+	height: 32px;
+	width: 167px;
+	border-radius: 10px;
+	border: 0;
+}
+p{
+	color: white;
+}
+SELECT {
+	background: #7000e3;
+	color: white;
+	border: 0;
+}
