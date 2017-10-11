@@ -44,6 +44,15 @@
 .sign-page__input_text{
 	width: 120px;
 }
+.checkbox {
+	float: left;
+	width: 22px;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.checkbox__text{
+	padding-top: 30px;
+}
 p {
 	font-family:helvetica;
 	line-height: 6px;
