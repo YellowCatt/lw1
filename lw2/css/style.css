@@ -33,14 +33,16 @@
 }
 .sign-page{
 	position: relative;
-    margin: 100px 30%;
+    margin: 100px 20%;
     text-align: left;
 }
-.sign-page__login {
-	padding: 20px 0;
+.sign-page__input{
+	width: 420px;
+	height: 40px;
+	padding-top: 20px;
 }
-.sign-page__pass {
-	padding: 20px 0;
+.sign-page__input_text{
+	width: 120px;
 }
 p {
 	font-family:helvetica;
@@ -53,28 +55,17 @@ SELECT {
 }
 INPUT {
 	float:right;
-	height: 40px;
+	height: 38px;
+	width: 258px;
+	padding: 0 20px;
 	border-radius: 8px;
 	border-color: gray;
 	border: 1px solid rgba(0, 0, 0, .15);
 }
-.sign-page__login :hover {
+INPUT:hover {
 	border-color: #7000e3;
 }
-.sign-page__pass :hover {
-	border-color: #7000e3;
-}
-.sign-page__login :focus {
+INPUT:focus {
 	border-color: #7000e3;
 	outline: none;
-}
-.sign-page__pass :focus {
-	border-color: #7000e3;
-	outline: none;
-}
-.sign-page_input {
-	padding: 0 10px;
-}
-.check {
-	float: right;
 }
