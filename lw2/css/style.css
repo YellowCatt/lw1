@@ -23,7 +23,7 @@
 	float: right;
 	padding: 2px;
 }
-.sign-button{
+.sign-in-button{
 	background: white;
 	color: #7000e3;
 	height: 32px;
@@ -52,6 +52,18 @@
 }
 .checkbox__text{
 	padding-top: 30px;
+}
+.sign-up-button{
+	background: #7000e3;
+	color: white;
+	height: 40px;
+	width: 76px;
+	border-radius: 8px;
+	border: 0;
+	margin-right: 10px;
+}
+.sign-page__button-sign{
+	padding: 20px 0 0 120px;
 }
 p {
 	font-family:helvetica;
