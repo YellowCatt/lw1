@@ -12,12 +12,12 @@
 }
 .header-page__language {
 	float: left;
-	width: 33%;
 	padding: 22px;
+	margin: 0 auto;
 }
 .header-page__logo {
-	float: left;
-	padding: 16px;
+	margin: 0 auto;
+    position: relative;
 }
 .header-page__sign-in {
 	float: right;
@@ -31,10 +31,11 @@
 	border-radius: 8px;
 	border: 0;
 }
-.sign-page{
-	position: relative;
-    margin: 100px 20%;
-    text-align: left;
+.sign-page__center{
+    position: relative;
+    margin: 100px auto;
+	width: 670px;
+    text-align: left;	
 }
 .sign-page__input{
 	width: 420px;
@@ -43,6 +44,9 @@
 }
 .sign-page__input_text{
 	width: 120px;
+}
+.check{
+	width: 420px;
 }
 .checkbox {
 	float: left;
@@ -64,6 +68,35 @@
 }
 .sign-page__button-sign{
 	padding: 20px 0 0 120px;
+	width: 300px;
+}
+.login-page{
+	width: 420px;
+	height: 280px;
+	float: left;
+}
+.sign-page__separator{
+	padding-top: 20px;
+	width: 100px;
+	height: 280px;
+	float: left;
+}
+.left-line{
+	width: 49px;
+	height: 110px;
+	border-right: 1px solid black;
+	float: left;
+}
+.mid-line{
+	width: 60px;
+	height: 55px;
+	margin: 38px;
+	background: white;
+}
+.right-line{
+	width: 50px;
+	height: 110px;
+	float: left;
 }
 p {
 	font-family:helvetica;
