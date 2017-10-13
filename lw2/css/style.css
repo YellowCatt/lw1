@@ -34,7 +34,8 @@
 .sign-page__center{
     position: relative;
     margin: 100px auto;
-	width: 670px;
+	width: 680px;
+	height:330px;
     text-align: left;	
 }
 .sign-page__input{
@@ -98,6 +99,65 @@
 	height: 110px;
 	float: left;
 }
+.sign-page__more-input{
+	width: 150px;
+	height: 280px;
+	float: left;
+}
+.info-page{
+	position: relative;
+    margin: 100px auto;
+	width: 780px;
+    text-align: left;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: white;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
 p {
 	font-family:helvetica;
 	line-height: 6px;
@@ -122,4 +182,9 @@ INPUT:hover {
 INPUT:focus {
 	border-color: #7000e3;
 	outline: none;
+}
+BUTTON {
+	background: white;
+	border: 0px;
+	padding: 5px;
 }
