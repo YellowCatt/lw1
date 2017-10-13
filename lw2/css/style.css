@@ -1,27 +1,43 @@
-﻿.page-badoo {
-	height: 100%;
-	width: 100%;
+﻿BODY {
 	margin: 0;
+}
+.page-badoo {
+	margin: 0;
+}
+.header{
+	background: #7000e3;
+	height: 65px;
+	position: relative;
+
 }
 .header-page {
 	background: #7000e3;
 	height: 65px;
-	padding: 0 20px;
+	width: 1240px;
 	margin: 0 auto;
 	position: relative;
 }
 .header-page__language {
+	width: 380px;
+	height: 45px;
 	float: left;
-	padding: 22px;
-	margin: 0 auto;
+	padding: 22px 0 0 25px;
 }
 .header-page__logo {
-	margin: 0 auto;
-    position: relative;
+	float: left;
+	position: relative;
+	width: 270px;
+	height: 45px;
+	margin: 16px 0 0 160px;
 }
 .header-page__sign-in {
 	float: right;
-	padding: 2px;
+	padding: 2px 20px 0 0;
+	width: 380px;
+	height: 65px;
+}
+.sign-page{
+	height: 400px;
 }
 .sign-in-button{
 	background: white;
@@ -41,10 +57,12 @@
 .sign-page__input{
 	width: 420px;
 	height: 40px;
-	padding-top: 20px;
+	padding-top: 5px;
 }
 .sign-page__input_text{
 	width: 120px;
+	height: 20px;
+	margin-top: 5px;
 }
 .check{
 	width: 420px;
@@ -57,6 +75,7 @@
 }
 .checkbox__text{
 	padding-top: 30px;
+	font-family:helvetica;
 }
 .sign-up-button{
 	background: #7000e3;
@@ -65,7 +84,7 @@
 	width: 76px;
 	border-radius: 8px;
 	border: 0;
-	margin-right: 10px;
+	margin: 4px 12px 0px 2px;
 }
 .sign-page__button-sign{
 	padding: 20px 0 0 120px;
@@ -77,44 +96,49 @@
 	float: left;
 }
 .sign-page__separator{
-	padding-top: 20px;
 	width: 100px;
 	height: 280px;
 	float: left;
 }
 .left-line{
-	width: 49px;
-	height: 110px;
-	border-right: 1px solid black;
+	width: 50px;
+	height: 120px;
+	border-right: 1px solid gray;
 	float: left;
+	margin-bottom: 10px;
 }
 .mid-line{
 	width: 60px;
 	height: 55px;
-	margin: 38px;
+	margin-left: 37px;
 	background: white;
 }
 .right-line{
-	width: 50px;
-	height: 110px;
+	width: 49px;
+	height: 120px;
 	float: left;
+	margin-bottom: 10px;
 }
 .sign-page__more-input{
 	width: 150px;
 	height: 280px;
 	float: left;
+	margin-left: -3px;
 }
 .info-page{
 	position: relative;
     margin: 100px auto;
-	width: 780px;
+	width: 1200px;
     text-align: left;
 }
 ul {
-    display: block;
+    
+	display: block;
     margin: 0;
     padding: 0;
     list-style: none;
+	font-family:helvetica;
+	font-size: .93em;
 }
 ul:after {
     display: block;
@@ -160,7 +184,7 @@ ul.menu > li:hover > ul.submenu {
 }
 p {
 	font-family:helvetica;
-	line-height: 6px;
+	font-size: .93em;
 }
 SELECT {
 	background: #7000e3;
@@ -171,7 +195,7 @@ INPUT {
 	float:right;
 	height: 38px;
 	width: 258px;
-	padding: 0 20px;
+	padding: 0px 20px 0px 18px;
 	border-radius: 8px;
 	border-color: gray;
 	border: 1px solid rgba(0, 0, 0, .15);
@@ -187,4 +211,8 @@ BUTTON {
 	background: white;
 	border: 0px;
 	padding: 5px;
+}
+FONT {
+	font-family:helvetica;
+	text-align: center;
 }
