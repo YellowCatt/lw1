@@ -1,218 +1,256 @@
-﻿BODY {
-	margin: 0;
+BODY {
+  margin: 0;
 }
-.page-badoo {
-	margin: 0;
-}
-.header{
-	background: #7000e3;
-	height: 65px;
-	position: relative;
 
+.page-badoo {
+  margin: 0;
 }
+
+.header {
+  background: #7000e3;
+  height: 65px;
+  position: relative;
+}
+
 .header-page {
-	background: #7000e3;
-	height: 65px;
-	width: 1240px;
-	margin: 0 auto;
-	position: relative;
+  background: #7000e3;
+  height: 65px;
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
 }
+
 .header-page__language {
-	width: 380px;
-	height: 45px;
-	float: left;
-	padding: 22px 0 0 25px;
+  width: 380px;
+  height: 45px;
+  float: left;
+  padding: 22px 0 0 25px;
 }
+
 .header-page__logo {
-	float: left;
-	position: relative;
-	width: 270px;
-	height: 45px;
-	margin: 16px 0 0 160px;
+  float: left;
+  position: relative;
+  width: 270px;
+  height: 45px;
+  margin: 16px 0 0 160px;
 }
+
 .header-page__sign-in {
-	float: right;
-	padding: 2px 20px 0 0;
-	width: 380px;
-	height: 65px;
+  float: right;
+  padding: 2px 20px 0 0;
+  width: 380px;
+  height: 65px;
 }
-.sign-page{
-	height: 400px;
+
+.sign-page {
+  height: 400px;
 }
-.sign-in-button{
-	background: white;
-	color: #7000e3;
-	height: 32px;
-	width: 167px;
-	border-radius: 8px;
-	border: 0;
+
+.sign-in-button {
+  background: white;
+  color: #7000e3;
+  height: 32px;
+  width: 167px;
+  border-radius: 8px;
+  border: 0;
 }
-.sign-page__center{
-    position: relative;
-    margin: 100px auto;
-	width: 680px;
-	height:330px;
-    text-align: left;	
+
+.sign-page__center {
+  position: relative;
+  margin: 100px auto;
+  width: 680px;
+  height: 330px;
+  text-align: left;
 }
-.sign-page__input{
-	width: 420px;
-	height: 40px;
-	padding-top: 5px;
+
+.sign-page__input {
+  width: 420px;
+  height: 40px;
+  padding-top: 5px;
 }
-.sign-page__input_text{
-	width: 120px;
-	height: 20px;
-	margin-top: 5px;
+
+.sign-page__input_text {
+  width: 120px;
+  height: 20px;
+  margin-top: 5px;
 }
-.check{
-	width: 420px;
+
+.check {
+  width: 420px;
 }
+
 .checkbox {
-	float: left;
-	width: 22px;
-	margin-left: 120px;
-	margin-top: 20px;
+  float: left;
+  width: 22px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
-.checkbox__text{
-	padding-top: 30px;
-	font-family:helvetica;
+
+.checkbox__text {
+  padding-top: 30px;
+  font-family: helvetica;
 }
-.sign-up-button{
-	background: #7000e3;
-	color: white;
-	height: 40px;
-	width: 76px;
-	border-radius: 8px;
-	border: 0;
-	margin: 4px 12px 0px 2px;
+
+.sign-up-button {
+  background: #7000e3;
+  color: white;
+  height: 40px;
+  width: 76px;
+  border-radius: 8px;
+  border: 0;
+  margin: 4px 12px 0px 2px;
 }
-.sign-page__button-sign{
-	padding: 20px 0 0 120px;
-	width: 300px;
+
+.sign-page__button-sign {
+  padding: 20px 0 0 120px;
+  width: 300px;
 }
-.login-page{
-	width: 420px;
-	height: 280px;
-	float: left;
+
+.login-page {
+  width: 420px;
+  height: 280px;
+  float: left;
 }
-.sign-page__separator{
-	width: 100px;
-	height: 280px;
-	float: left;
+
+.sign-page__separator {
+  width: 100px;
+  height: 280px;
+  float: left;
 }
-.left-line{
-	width: 50px;
-	height: 120px;
-	border-right: 1px solid gray;
-	float: left;
-	margin-bottom: 10px;
+
+.left-line {
+  width: 50px;
+  height: 120px;
+  border-right: 1px solid gray;
+  float: left;
+  margin-bottom: 10px;
 }
-.mid-line{
-	width: 60px;
-	height: 55px;
-	margin-left: 37px;
-	background: white;
+
+.mid-line {
+  width: 60px;
+  height: 55px;
+  margin-left: 37px;
+  background: white;
 }
-.right-line{
-	width: 49px;
-	height: 120px;
-	float: left;
-	margin-bottom: 10px;
+
+.right-line {
+  width: 49px;
+  height: 120px;
+  float: left;
+  margin-bottom: 10px;
 }
-.sign-page__more-input{
-	width: 150px;
-	height: 280px;
-	float: left;
-	margin-left: -3px;
+
+.sign-page__more-input {
+  width: 150px;
+  height: 280px;
+  float: left;
+  margin-left: -3px;
 }
-.info-page{
-	position: relative;
-    margin: 100px auto;
-	width: 1200px;
-    text-align: left;
+
+.info-page {
+  position: relative;
+  margin: 100px auto;
+  width: 1200px;
+  text-align: left;
 }
+
 ul {
-    
-	display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-	font-family:helvetica;
-	font-size: .93em;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: helvetica;
+  font-size: .93em;
 }
+
 ul:after {
-    display: block;
-    content: ' ';
-    clear: both;
-    float: none;
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
 }
+
 ul.menu > li {
-    float: left;
-    position: relative;
+  float: left;
+  position: relative;
 }
+
 ul.menu > li > a {
-    display: block;
-    padding: 10px;
-    color: gray;
-    text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: gray;
+  text-decoration: none;
 }
+
 ul.menu > li > a:hover {
-    background-color: white;
+  background-color: white;
 }
+
 ul.submenu {
-    display: none;
-    position: absolute;
-    width: 120px;
-    top: 37px;
-    left: 0;
-    background-color: white;
+  display: none;
+  position: absolute;
+  width: 120px;
+  top: 37px;
+  left: 0;
+  background-color: white;
 }
+
 ul.submenu > li {
-    display: block;
+  display: block;
 }
+
 ul.submenu > li > a {
-    display: block;
-    padding: 10px;
-    color: gray;
-    text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: gray;
+  text-decoration: none;
 }
+
 ul.submenu > li > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 ul.menu > li:hover > ul.submenu {
-    display: block;
+  display: block;
 }
+
 p {
-	font-family:helvetica;
-	font-size: .93em;
+  font-family: helvetica;
+  font-size: .93em;
 }
+
 SELECT {
-	background: #7000e3;
-	color: white;
-	border: 0;
+  background: #7000e3;
+  color: white;
+  border: 0;
 }
+
 INPUT {
-	float:right;
-	height: 38px;
-	width: 258px;
-	padding: 0px 20px 0px 18px;
-	border-radius: 8px;
-	border-color: gray;
-	border: 1px solid rgba(0, 0, 0, .15);
+  float: right;
+  height: 38px;
+  width: 258px;
+  padding: 0px 20px 0px 18px;
+  border-radius: 8px;
+  border-color: gray;
+  border: 1px solid rgba(0, 0, 0, .15);
 }
+
 INPUT:hover {
-	border-color: #7000e3;
+  border-color: #7000e3;
 }
+
 INPUT:focus {
-	border-color: #7000e3;
-	outline: none;
+  border-color: #7000e3;
+  outline: none;
 }
+
 BUTTON {
-	background: white;
-	border: 0px;
-	padding: 5px;
+  background: white;
+  border: 0px;
+  padding: 5px;
 }
+
 FONT {
-	font-family:helvetica;
-	text-align: center;
+  font-family: helvetica;
+  text-align: center;
 }
