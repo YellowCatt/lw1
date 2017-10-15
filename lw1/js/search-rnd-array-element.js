@@ -3,7 +3,7 @@ var array = [],
   isFound = false,
   i, fullmass = " ",
   N = 10,
-  i1, Error = false,
+  inputError,
   pattern = /^[\s]+$/;
 
 for (i = 0; i < N; i++) {
@@ -12,15 +12,15 @@ for (i = 0; i < N; i++) {
 }
 
 do {
-  searchNumber = prompt("search namber: ");
-  Error = false;
+  searchNumber = prompt("search number: ");
+  inputError = false;
   if (searchNumber !== null) {
     if ((searchNumber == "") || (isNaN(searchNumber)) || (pattern.test(searchNumber))) {
       alert("Error");
-      Error = true;
+      inputError = true;
     }
   }
-} while (Error == true);
+} while (inputError == true);
 
 if (searchNumber !== null) {
   for (i = 0; i < N; i++) {
