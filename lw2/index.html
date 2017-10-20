@@ -12,122 +12,124 @@
     <div class="page-badoo">
       <div class="header">
         <div class="header-page">
-          <span class="header-page__language">
-		    <select id="select-language" style="font-size:17px">
-  			  <option value="RU">Русский</option>
-	  		  <option value="EN">English</option>
-		  	  <option value="IT">Italian</option>
-			  <option value="PO">Polski</option>
+          <span class="header-page-language">
+		    <select class="header-page__select-language">
+  			  <p>
+			    <option value="RU">Русский</option>
+				<option value="EN">English</option>
+				<option value="IT">Italian</option>
+				<option value="PO">Polski</option>
+			  </p>
 		    </select>
 		  </span>
-          <span class="header-page__logo">
+          <span class="header-page-logo">
   		    <a href=""><img src="img/logo.png"></a>
 	  	  </span>
-          <span class="header-page__sign-in">
-		    <p style="text-align: right"><font color="white">Впервые здесь?</font>
-	          <button class="sign-in-button">Зарегистрироваться</button>
+          <span class="header-page-sign-in">
+		    <p class="sign-in__text">Впервые здесь?
+	          <button class="sign-in__button">Зарегистрироваться</button>
 		    </p>
 		  </span>
         </div>
       </div>
 
       <div class="sign-page">
-        <div class="sign-page__center">
-          <p><font color="#303030" style="font-size:20px">Вход на Badoo</font></p>
-          <p><font color="gray" size="3">Введите свои данные или </font><a href=""><font color="gray">зарегистрируйтесь</font></a>,</p>
-          <p><font color="gray">если вы здесь впервые.</font></p>
+        <div class="sign-page-center">
+          <p class="page-center__title">Вход на Badoo</p>
+          <p class="page-center__text">Введите свои данные или <a href="" class="page-center__link">зарегистрируйтесь</a>,</p>
+          <p class="page-center__text-2">если вы здесь впервые.</p>
           <span class="login-page">
-  	        <div class="sign-page__input">
-  		      <span class="sign-page__input_text">
-	  	        <font color="gray" size="3">Логин</font>
+  	        <div class="sign-page-input-log">
+  		      <span class="input-log__text">
+	  	       <p>Логин</p>
 		      </span>
-              <span class="sign-page__input_input">
-		        <input type="text" size="30" class="sign-page_input" value placeholder="E-mail или номер телефона">
+		      <input type="text" size="30" class="input-log__input" value placeholder="E-mail или номер телефона">
+		    </div>
+            <div class="sign-page-input-pass">
+              <span class="input-pass__text">
+	  	        <p>Пароль</p>
 		      </span>
-			</div>
-            <div class="sign-page__input" style="margin-top:15px">
-              <span class="sign-page__input_text">
-	  	        <font color="gray" size="3">Пароль</font>
-		      </span>
-              <span class="sign-page__input_input">
-		        <input type="text" size="30" class="sign-page_input" value placeholder="Пароль">
-		      </span>
+		      <input type="text" size="30" class="input-pass__input" value placeholder="Пароль">
             </div>
-            <div class="check">
-              <input type="checkbox" class="checkbox">
-			  <div class="checkbox__text">
-                Запомнить меня
-              </div>
+            <div class="checkbox">
+              <label for="check-input">
+			    <input type="checkbox" class="check_input" name="check" value="check_input">
+				<p>Запомнить меня</p>
+              </label>
             </div>
-			<div class="sign-page__button-sign">
-			  <button class="sign-up-button">Войти</button>
-			  <a href=""><font color="gray">Забыли пароль?</font></a>
+			
+			<div class="sign-page-button-sign">
+			  <button class="sign-up__button">Войти</button>
+			  <a href="" class="sign-up__quest">Забыли пароль?</a>
 			</div>
 		  </span>
-		  <span class="sign-page__separator">
-		    <span class="left-line">
-          </span>
-		  <span class="right-line">
-          </span>
-          <div class="mid-line">
-            <font size="3">
+		  <span class="sign-page-separator">
+		    <span class="separator__left-line">
+            </span>
+		    <span class="separator__right-line">
+			</span>
+			<div class="separator__mid-line">
 			  или
-            </font>
-          </div>
-		  <span class="left-line" style="margin-top: 30px">
-          </span>
-		  <span class="right-line"></span>
-          </span>
-          <span class="sign-page__more-input">
-  	        <button>
-              <img src="img/FB-link.png" alt=""> 
+			</div>
+			<span class="separator__left-line">
+			</span>
+			<span class="separator__right-line">
+			</span>
+		  </span>
+          <span class="sign-page-more-input">
+  	        <button class="more-input__fb">
+              <img class="img__bd" src="img/FB-link.png" alt="">
             </button>
-		    <button>
-              <img src="img/VK-link.png" alt="" style="margin: -3px 0 -3px 0"> 
+		    <button class="more-input__vk">
+              <img class="img__vk" src="img/VK-link.png" alt="">
             </button>
-			<button>
-              <img src="img/MAIL_RU-link.png" alt="" style="margin: 2px 0 1px 4px"> 
+			<button class="more-input">
+              <img class="img__mail" src="img/MAIL_RU-link.png" alt="">
+			  <span class="more_text" >Mail.Ru</span>
             </button>
-			<button>
-              <img src="img/GMAIL-link.png" alt="" style="margin: 0 0 3px 5px"> 
+			<button class="more-input">
+              <img class="img__gmail" src="img/GMAIL-link.png" alt="">
+			  <span class="more_text">Google+</span>
             </button>
-		  	<button>
-              <img src="img/MSN-link.png" alt="" style="margin: -3px 0 3px 5px"> 
+		  	<button class="more-input">
+              <img class="img__msn" src="img/MSN-link.png" alt=""> 
+			  <span class="more_text">MSN</span> 
             </button>
-      		<button>
-              <img src="img/OK-link.png" alt="" style="margin: -2px 0 1px 4px"> 
+      		<button class="more-input">
+              <img class="img__ok" src="img/OK-link.png" alt="">
+			  <span class="more_text">Одноклассники</span> 
             </button>
-			<button>
-              <img src="img/YANDEX-link.png" alt="" style="margin: -2px 0 0 4px"> 
+			<button class="more-input">
+              <img class="img__yandex" src="img/YANDEX-link.png" alt=""> 
+			  <span class="more_text">Яндекс</span> 
             </button>
 		  </span>
         </div>
       </div>
 
-    <div class="info-page">
-      <hr>
-      <ul class="menu">
-        <li><a href=#>О нас</a>
-          <ul class="submenu">
-            <li><a href=#>Компания</a></li>
-            <li><a href=#>Карьера</a></li>
-            <li><a href=#>Влог</a></li>
-          </ul>
-        </li>
-        <li><a href=#>Мобильная версия</a></li>
-        <li><a href=#>Условия</a></li>
-        <li><a href=#>Конфиденциальность</a></li>
-        <li><a href=#>Помощь</a>
-          <ul class="submenu">
-            <li><a href=#>Помощь</a></li>
-            <li><a href=#>Правила сообщества</a></li>
-            <li><a href=#>Советы по безопасности</a></li>
-          </ul>
-        </li>
-        <li><a href=#>Пресса</a></li>
-      </ul>
-    </div>
-    </div>
+	  <div class="info-page">
+        <hr>
+		<ul class="menu">
+		  <li><a href=# class="info-page__link">О нас</a>
+		    <ul class="submenu">
+			  <li><a href=# class="info-page__link">Компания</a></li>
+			  <li><a href=# class="info-page__link">Карьера</a></li>
+			  <li><a href=# class="info-page__link">Влог</a></li>
+			</ul>
+		  </li>
+		  <li><a href=# class="info-page__link">Мобильная версия</a></li>
+		  <li><a href=# class="info-page__link">Условия</a></li>
+		  <li><a href=# class="info-page__link">Конфиденциальность</a></li>
+		  <li><a href=# class="info-page__link">Помощь</a>
+            <ul class="submenu">
+			  <li><a href=# class="info-page__link">Помощь</a></li>
+              <li><a href=# class="info-page__link">Правила сообщества</a></li>
+              <li><a href=# class="info-page__link">Советы по безопасности</a></li>
+            </ul>
+		  </li>
+		  <li><a href=# class="info-page__link">Пресса</a></li>
+		</ul>
+      </div>
     </div>
   </body>
 

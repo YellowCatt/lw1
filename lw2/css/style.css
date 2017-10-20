@@ -1,5 +1,37 @@
-BODY {
+body {
   margin: 0;
+}
+
+.page-center__title {
+  font-size: 20px;
+}
+
+.page-center__text {
+  margin-top: 23px;
+}
+
+.page-center__text-2{
+  margin-top: -13px;
+}
+
+.sign-page-input-log {
+  height: 40px;
+  width: 420px;
+  margin-top: 17px;
+}
+
+.input-log__input {
+  margin-top: -38px;
+}
+
+.sign-page-input-pass {
+  height: 40px;
+  width: 420px;
+  margin-top: 20px;
+}
+
+.input-pass__input {
+  margin-top: -38px;
 }
 
 .page-badoo {
@@ -20,14 +52,14 @@ BODY {
   position: relative;
 }
 
-.header-page__language {
+.header-page-language {
   width: 380px;
   height: 45px;
   float: left;
   padding: 22px 0 0 25px;
 }
 
-.header-page__logo {
+.header-page-logo {
   float: left;
   position: relative;
   width: 270px;
@@ -35,75 +67,83 @@ BODY {
   margin: 16px 0 0 160px;
 }
 
-.header-page__sign-in {
+.header-page-sign-in {
   float: right;
   padding: 2px 20px 0 0;
   width: 380px;
   height: 65px;
 }
-
+.sign-in__text{
+  color: white;	
+  margin-left: 82px;
+}
 .sign-page {
   height: 400px;
 }
 
-.sign-in-button {
+.sign-in__button {
   background: white;
   color: #7000e3;
   height: 32px;
   width: 167px;
   border-radius: 8px;
   border: 0;
+  margin-left:14px;
 }
 
-.sign-page__center {
+.sign-page-center {
   position: relative;
-  margin: 100px auto;
+  margin: 102px auto;
   width: 680px;
   height: 330px;
   text-align: left;
 }
 
-.sign-page__input {
+.sign-page-input {
   width: 420px;
   height: 40px;
   padding-top: 5px;
 }
 
-.sign-page__input_text {
+.sign-page-input__text {
   width: 120px;
   height: 20px;
   margin-top: 5px;
 }
 
-.check {
-  width: 420px;
-}
-
 .checkbox {
+  width: 420px;
+  height: 50px;
+  margin: 20px 0 0 2px;
+}
+
+.check_input {
   float: left;
+  margin: 0 9px 0 121px;
+  height: 22px;
   width: 22px;
-  margin-left: 120px;
-  margin-top: 20px;
+  border-radius: 8px;
 }
 
-.checkbox__text {
-  padding-top: 30px;
-  font-family: helvetica;
-}
-
-.sign-up-button {
+.sign-up__button {
   background: #7000e3;
   color: white;
   height: 40px;
   width: 76px;
   border-radius: 8px;
   border: 0;
-  margin: 4px 12px 0px 2px;
+  margin: -5px 10px 0 2px;
 }
 
-.sign-page__button-sign {
-  padding: 20px 0 0 120px;
-  width: 300px;
+.sign-up__quest{
+  font-family: helvetica;
+  font-size: .93em;
+  color: gray;
+}
+
+.sign-page-button-sign {
+  padding: 0 0 0 120px;
+  width: 301px;
 }
 
 .login-page {
@@ -112,13 +152,13 @@ BODY {
   float: left;
 }
 
-.sign-page__separator {
+.sign-page-separator {
   width: 100px;
   height: 280px;
   float: left;
 }
 
-.left-line {
+.separator__left-line {
   width: 50px;
   height: 120px;
   border-right: 1px solid gray;
@@ -126,21 +166,24 @@ BODY {
   margin-bottom: 10px;
 }
 
-.mid-line {
+.separator__mid-line {
   width: 60px;
   height: 55px;
-  margin-left: 37px;
+  margin: 113px 0 0 36px;
   background: white;
+  font-size: 19px;
+  color: gray;
+  font-family: helvetica;
 }
 
-.right-line {
+.separator__right-line {
   width: 49px;
   height: 120px;
   float: left;
   margin-bottom: 10px;
 }
 
-.sign-page__more-input {
+.sign-page-more-input {
   width: 150px;
   height: 280px;
   float: left;
@@ -152,6 +195,37 @@ BODY {
   margin: 100px auto;
   width: 1200px;
   text-align: left;
+}
+.header-page__select-language {
+  font-size:17px;
+}
+
+.info-page__link:hover {
+  color: #7000e3;
+}
+
+.more-input {
+  height: 36px;
+  width: 158px;
+  float: left;
+  padding: 3px 0 0 9px;
+}
+
+.more_text {
+  padding: 5px 0 0 4px;
+  float: left;
+  font-family: helvetica;
+  font-size: 1;
+  font-stretch: semi-expanded;
+  color: gray;
+}
+
+.more-input__fb {
+  margin: 9px 0 8px -1px;
+}
+
+.more-input__vk {
+  margin-left: -1px;
 }
 
 ul {
@@ -217,15 +291,17 @@ ul.menu > li:hover > ul.submenu {
 p {
   font-family: helvetica;
   font-size: .93em;
+  color: gray;
+  text-align: left;
 }
 
-SELECT {
+select {
   background: #7000e3;
   color: white;
   border: 0;
 }
 
-INPUT {
+input {
   float: right;
   height: 38px;
   width: 258px;
@@ -235,22 +311,25 @@ INPUT {
   border: 1px solid rgba(0, 0, 0, .15);
 }
 
-INPUT:hover {
+input:hover {
   border-color: #7000e3;
 }
 
-INPUT:focus {
+input:focus {
   border-color: #7000e3;
   outline: none;
 }
 
-BUTTON {
+button {
   background: white;
   border: 0px;
-  padding: 5px;
 }
 
-FONT {
-  font-family: helvetica;
-  text-align: center;
+img {
+  float: left;
+  margin-right: 5px;
+}
+
+.more_text:hover {
+  color: #7000e3;
 }
