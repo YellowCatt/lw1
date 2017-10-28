@@ -85,7 +85,7 @@ body {
   background: white;
   color: #7000e3;
   height: 32px;
-  width: 167px;
+  width: 165px;
   border-radius: 8px;
   border: 0;
   margin-left:14px;
@@ -313,6 +313,7 @@ input {
 
 input:hover {
   border-color: #7000e3;
+  cursor: pointer;
 }
 
 input:focus {
@@ -323,6 +324,10 @@ input:focus {
 button {
   background: white;
   border: 0px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 img {
