@@ -1,3 +1,8 @@
+function validLogin(email) {
+  var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+  return pattern.test(email);
+}
+
 class RegistrationPage {
   constructor(formElement) {
     this.form = formElement;
@@ -7,12 +12,18 @@ class RegistrationPage {
     this.formCheck = formElement.getElementsByClassName('check_input')[0].checked;
   }
   validate() {
+    if (!validLogin(this.formLogin)) {
+      this.errorMsg = 'Введите корректный email!';
+      return false;
+    }
+
+   
   }
   success() {
     alert('Вы успешно зарегистрировались.');
   }
   error() {
-    alert('Error');
+    alert(this.errorMsg);
   }
 }
 
