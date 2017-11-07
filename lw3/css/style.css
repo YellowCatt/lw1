@@ -1,65 +1,50 @@
 body {
   margin: 0;
 }
-  
-.sign-page-input {
-  height: 40px;
-  width: 420px;
-  margin: 10px 0 10px -61px
-}
 
 .sign-page {
   height: 400px;
 }
 .sign-page-center {
   position: relative;
-  margin: 102px auto;
+  margin: 91px auto;
   width: 680px;
   height: 330px;
   text-align: left;
 }
   
-.checkbox {
-  width: 420px;
-  height: 50px;
-  margin: 20px 0 0 2px;
-}
-  
 .check_input {
   float: left;
-  margin: 0 9px 0 121px;
+  margin: 0 -50px 0 121px;
   height: 22px;
   width: 22px;
   border-radius: 8px;
 }
  
-.sign-up__button {
-  background: #7000e3;
+.sign-up__input {
+  background: red;
   color: white;
   height: 40px;
+  width: 298px; 
   border-radius: 8px;
   border: 0;
-  margin: -5px 0 0 141px;
-}
-  
-.sign-page-button-sign {
-  width: 301px;
 }
   
 .login-page {
   width: 420px;
-  height: 280px;
+  height: 320px;
   float: left;
   border-radius: 8px;
   border: 1px solid #7000e3;
-  margin: 0 25%;
+  margin: 100px 25%;
 }
   
 input {
   float: right;
   height: 38px;
   width: 258px;
-  padding: 0px 20px 0px 18px;
+  padding: 0 20px 0 18px;
+  margin: 10px 60px 10px 0;
   border-radius: 8px;
   border-color: gray;
   border: 1px solid rgba(0, 0, 0, .15);
@@ -77,4 +62,8 @@ input:focus {
 button {
   background: white;
   border: 0px;
+}
+
+label {
+  margin-left: 60px;
 }
