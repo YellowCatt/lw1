@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
-  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Регистрация</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div class="sign-page">
     <div class="sign-page-center">
-      <span class="login-page">
-        <div class="sign-page-input">
-          <input type="text" size="30" class="input-log__input" value placeholder="Введите E-mail">
+      <form class="login-page">
+        <div>
+          <label>"Введите E-mail</label>
+          <input type="email" class="input-log__input">
         </div>
-        <div class="sign-page-input">
-          <input type="text" size="30" class="input-pass__input" value placeholder="Введите Пароль">
+        <div>
+          <label>"Введите пароль</label>
+          <input type="password" class="input-pass__input">
         </div>
-        <div class="sign-page-input">
-          <input type="text" size="30" class="input-pass__input-check" value placeholder="Повторите пароль">
+        <div>
+          <label>"Повторите пароль</label>
+          <input type="password" class="input-pass-check__input">
         </div>
-        <div class="checkbox">
-          <label for="check-input">
-            <input type="checkbox" class="check_input" name="check" value="check_input">
-            <p>Принимаю привила</p>
+        <div>
+          <label class="check-input">
+            <input type="checkbox" class="check_input"> Принимаю привила
           </label>
         </div>
-        <div class="sign-page-button-sign">
-          <button class="sign-up__button">Зарегистрироваться</button>
-        </div>
-      </span>
+        <input type="submit" class="sign-up__input" value="Зарегистрироваться">
+      </form>
+      <script src="js/check_for_error.js"></script>
     </div>
   </div>
 </body>
