@@ -27,7 +27,10 @@ class RegistrationPage {
       return false;
     }
 
-   
+    if (!this.formCheck) {
+      this.errorMsg = 'Вы не согласны с правилами сайта!';
+      return false;
+    }
 
     return true;
   }
