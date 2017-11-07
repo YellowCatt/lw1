@@ -17,7 +17,19 @@ class RegistrationPage {
       return false;
     }
 
+    if (this.formPassword.length < 6) {
+      this.errorMsg = 'Длина пароля должна составлять более 6 символов';
+      return false;
+    }
+
+    if (this.formPassword !== this.formPasswordCheck) {
+      this.errorMsg = 'Пароли не совпадают!';
+      return false;
+    }
+
    
+
+    return true;
   }
   success() {
     alert('Вы успешно зарегистрировались.');
