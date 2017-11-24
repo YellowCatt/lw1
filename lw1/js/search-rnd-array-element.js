@@ -18,8 +18,7 @@ do {
       alert("Ошибка");
       inputError = true;
     }
-  }
-} while (inputError == true);
+  } while (inputError == true);
 
 if (poisk !== null) {
   for (i = 0; i < N; i++) {
