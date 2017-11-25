@@ -1,7 +1,7 @@
 var array = [],
-  poisk = " ",
+  poisk = "",
   isFound = false,
-  i, fullmass = " ",
+  i, fullmass = "",
   N = 10,
   inputError;
  
