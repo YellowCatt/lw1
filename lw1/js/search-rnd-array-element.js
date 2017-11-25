@@ -1,5 +1,5 @@
 var array = [],
-  poisk = "",
+  poisk,
   isFound = false,
   i, fullmass = "",
   N = 10,
