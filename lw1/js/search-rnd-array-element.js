@@ -12,14 +12,13 @@ for (i = 0; i < N; i++) {
 }
 
 do {
-  poisk = prompt("Введите число: ");
+  poisk = prompt("Введите число:");
   inputError = false;
-  {if ((poisk == " ") || (isNaN(poisk)||(poisk !== null))
-    {
+  if ((poisk !== null)&&(poisk == "") || (isNaN(poisk)))
+    { 
       alert("Ошибка");
       inputError = true;
     }
-  }
 }while (inputError == true);
 
 if (poisk !== null) {
