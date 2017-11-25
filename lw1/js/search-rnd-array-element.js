@@ -1,5 +1,5 @@
 var array = [],
-  poisk,
+  searchNumber,
   isFound = false,
   i, fullmass = "",
   N = 10,
@@ -12,26 +12,26 @@ for (i = 0; i < N; i++) {
 }
 
 do {
-  poisk = prompt("Введите число:");
+  searchNumber = prompt("Введите число:");
   inputError = false;
-  if ((poisk !== null)&&(poisk == "") || (isNaN(poisk)))
+  if ((searchNumber !== null)&&(searchNumber == "") || (isNaN(searchNumber)))
     { 
       alert("Ошибка");
       inputError = true;
     }
 }while (inputError == true);
 
-if (poisk !== null) {
+if (searchNumber !== null) {
   for (i = 0; i < N; i++) {
-    if (array[i] == poisk) {
+    if (array[i] == searchNumber) {
       isFound = true;
     }
   }
   alert(fullmass);
 
   if (!isFound) {
-    alert("Элемент " + poisk + " не найден");
+    alert("Элемент " + searchNumber + " не найден");
   } else {
-    alert("Элемент " + poisk + " найден");
+    alert("Элемент " + searchNumber + " найден");
   }
 }
