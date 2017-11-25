@@ -14,8 +14,8 @@ for (i = 0; i < N; i++) {
 do {
   poisk = prompt("Введите число: ");
   inputError = false;
-  {(poisk !== null)
-    if ((poisk == " ") || (isNaN(poisk))){
+  {if ((poisk == " ") || (isNaN(poisk)||(poisk !== null))
+    {
       alert("Ошибка");
       inputError = true;
     }
