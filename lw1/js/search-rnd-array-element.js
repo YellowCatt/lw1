@@ -5,7 +5,6 @@ var array = [],
   N = 10,
   inputError;
  
-
 for (i = 0; i < N; i++) {
   array[i] = Math.floor(Math.random() * (N - 0 + 1 ) + 0 );
   fullmass = fullmass + array[i] + " ";
