@@ -17,7 +17,7 @@ do {
       alert("Ошибка");
       inputError = true;
     }
-}while (inputError == true);
+}while (inputError);
 
 if (searchNumber !== null) {
   for (i = 0; i < N; i++) {
