@@ -31,6 +31,11 @@ function registration(event){
       }
   }
   
+function fresh() {
+    location.reload();
+}
+setInterval("fresh()",18000);
+
   window.onload = function(){
     document.getElementById("registration").addEventListener("submit", registration);
   };
