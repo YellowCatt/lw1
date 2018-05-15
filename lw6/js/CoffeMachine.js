@@ -2,7 +2,7 @@ class CoffeMachine {
     
   constructor(balance, coffeeMenu, currentCoffeeNumber) {
     this.balance = 0;
-    this.currentCoffeeNumber = currentCoffeeNumber;
+    this.currentCoffeeNumber = 0;
     this.coffeeMenu = [ { id: 1, name: "Американо", price: 10 },
                         { id: 2, name: "Латте", price: 15 },
                         { id: 3, name: "Каппучино", price: 20 }
@@ -30,10 +30,7 @@ class CoffeMachine {
   }
 
   checkNumberCoffee(number) {
-    if ((number >= 1 ) && (number <= 3)) {
-      return true;
-    }
-    return false;
+   return (this.coffeeMenu.find(item => item.id === number) !== undefined) ? true : false;
   }
 
   checkEnoughMoney(coffeeNumber) {
